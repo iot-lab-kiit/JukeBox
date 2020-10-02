@@ -11,7 +11,7 @@ function getsound(txt)
 {
   switch (txt) {
         case "Hindi":
-        var randomnumber1= Math.round(Math.random()*(5-1)+1);
+        var randomnumber1= Math.round(Math.random()*(3-1)+1);
         var audio = new Audio("sounds/hindi/"+randomnumber1+".mp3");
         audio.play();
         break;
