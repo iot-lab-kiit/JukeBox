@@ -27,21 +27,7 @@ function getsound(txt)
         audio.play();
 
         break;
-        // case "d":
-        // var audio =new Audio("sounds/tom-4.mp3");
-        // audio.play();
-        // case "j":
-        // var audio =new Audio("sounds/snare.mp3");
-        // audio.play();
-        // break;
-        // case "k":
-        // var audio =new Audio("sounds/crash.mp3");
-        // audio.play();
-        // break;
-        // case "l":
-        // var audio =new Audio("sounds/kick-bass.mp3");
-        // audio.play();
-        break;
+        
 
 
   }
