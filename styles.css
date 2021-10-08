@@ -19,19 +19,35 @@ footer {
 
 .w {
   background-image: url("images/hindi.png");
-
 }
 
 .a {
   background-image: url("images/hindi.png");
-
-
 }
 
 .s {
 background-image: url("images/hindi.png");
 }
 
+.c {
+background-image: url("images/classical.png");
+}
+
+.f {
+background-image: url("images/folk.png");
+}
+
+.j {
+background-image: url("images/jazz.png");
+}
+
+.p {
+background-image: url("images/pop.png");
+}
+
+.r {
+background-image: url("images/rock.png");
+}
 
 .set {
   margin: 10% auto;
