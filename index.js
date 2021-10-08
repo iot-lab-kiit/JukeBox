@@ -1,34 +1,30 @@
-for(var i=0;i<document.querySelectorAll(".drum").length;i++)
-{
-document.querySelectorAll(".drum")[i].addEventListener("click",getobj);
+for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
+  document.querySelectorAll(".drum")[i].addEventListener("click", getCatagory);
 }
-function getobj()
-{
-var objtxt = this.innerHTML;
-getsound(objtxt);
+function getCatagory() {
+  var catagory = this.innerHTML;
+  getsound(catagory);
 }
-function getsound(txt)
-{
-  switch (txt) {
-        case "Hindi":
-        var randomnumber1= Math.round(Math.random()*(3-1)+1);
-        var audio = new Audio("sounds/hindi/"+randomnumber1+".mp3");
-        audio.play();
-        break;
-        case "English":
-        var randomnumber2= Math.round(Math.random()*(5-1)+1);
-        var audio = new Audio("sounds/english/"+randomnumber2+".mp3");
-        audio.play();
+var aud = document.createElement("audio");
 
-        break;
-        case "Punjabi":
-        var randomnumber3= Math.round(Math.random()*(5-1)+1);
-        var audio = new Audio("sounds/punjabi/"+randomnumber3+".mp3");
-        audio.play();
+function getsound(catagory) {
+  switch (catagory) {
+    case "Hindi":
+      var randomnumber1 = Math.round(Math.random() * 4) + 1;
+      aud.src = "sounds/hindi/" + randomnumber1 + ".mp3";
+      aud.play();
+      break;
+    case "English":
+      var randomnumber2 = Math.round(Math.random() * 2) + 1;
+      aud.src = "sounds/english/" + randomnumber2 + ".mp3";
+      aud.play();
 
-        break;
-        
+      break;
+    case "Punjabi":
+      var randomnumber3 = Math.round(Math.random() * 4) + 1;
+      aud.src = "sounds/punjabi/" + randomnumber3 + ".mp3";
+      aud.play();
 
-
+      break;
   }
 }
