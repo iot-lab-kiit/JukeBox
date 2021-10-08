@@ -54,7 +54,7 @@ greater end-user participation. We currently have a number of successful goods a
 
 <a name="preview"></a>
 ## Website Preview
-
+![image](https://user-images.githubusercontent.com/73037598/136554419-5bc81437-d1a4-490e-a993-207163a71130.png)
 
 <a name="contents"></a>
 ## Table of Contents
@@ -69,7 +69,7 @@ greater end-user participation. We currently have a number of successful goods a
 
 <a name="play"></a>
 ## Deployed Version
-https://xanxit.github.io/Jukebox/
+https://iot-lab-kiit.github.io/JukeBox/
 
 
 [Back to Start](#title)
